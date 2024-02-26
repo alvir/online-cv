@@ -8,258 +8,326 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Alexander Ryazantsev
+    tagline: Full Stack Developer, Tech & Team Lead
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: shurik.v.r@gmail.com
+    phone: "+375257659141"
+    timezone: Minsk
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    linkedin: alexander-ryazantsev-b256a234
+    github: alvir
+    telegram: Alvir9
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Russian
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: B1-B2
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Guitar
           link:
-
-        - item: Snowboarding
+        - item: Tourism
           link:
-
-        - item: Cooking
+        - item: Cycling
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Working as a Full Stack Developer and Tech Lead I participated in 
+      more than 20 large projects and successful startups in Real Estate, 
+      E-commerce, Travel and Sport apps and social networks. I started as 
+      a Java and SQL programmer and worked for almost 8 years while gaining 
+      experience in front-end technologies JavaScript and CSS. Then I switched 
+      to the rapidly developing and in demand Ruby on Rails framework.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Mathematics
+        university: Donetsk National University
+        time: 1997 - 2002
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Developer & Tech / Team Lead
+        time: Oct 2014 - Present
+        company: Krononsoft
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Senior Software Developer
+        time: Sep 2006 - Oct 2014
+        company: Anadea (Anahoret)
+        details: |
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Software Engineer
+        time: Apr 2003 - Sep 2006
+        company: JSC Ukrtelecom
+        details: |
+
+      - role: Software Engineer
+        time: Jul 2002 - Mar 2003
+        company: Yuz-Audit
+        details: |
+
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "Montiplanet"
+        time: "01.2024 - 05.2024"
+        industry: "eCommerce"
+        technologies: "Next.js, React.js, Typescript, Tailwind CSS, Postgres, WooCommerce API, Railway.com"
+        role: "Tech Lead / Senior Fullstack Developer"
+        responsibilities: "Stage 2. Multicountry, multidomain, multicurrency features. Hone MVP."
+        link: "https://montiplanet.com"
+        tagline: "The goal of early childhood education should be to activate the child’s own natural desire to learn. Montessori toys are ideally made of natural materials and are useful to promote learning and independence. They are battery-free toys reflecting real life and focusing on one skill at a time."
+        cases:
+          - problem: "Slow performance of fetching and generating data from WooCommerce"
+            solution: "Profiling and enhancement algorithm with better DB data preparation"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: "WhiskeyKissBoutique"
+        time: "04.2023 - 05.2023, 11.2023"
+        industry: "eCommerce"
+        technologies: "App Script, Google spreadsheets, Nest.js, Postgres"
+        role: "Tech Lead"
+        responsibilities: "Investigate and complete a legacy app of the data conversion between two platforms. Complete and kickoff after migrating to Nest.js"
+        link: "https://www.grailed.com/TheLuxuryTherapist"
+        tagline: "Specializing in boutique and designer clothing, shoes and accessories. Browse our sustainable collection for amazing deals, unique pieces and high quality."
+        cases:
+          - problem: "\"Almost\" completed application doesn't work to launch, performance and mismatches issue"
+            solution: "Provided account upgrade and solution for mismatch repairment and additional improvements to make this middleware app stable"
+          - problem: "Unstable and unexpected work of App Script application"
+            solution: "Migration to an own middleware application on a lightweight framework with DB"
+          - problem: "Mismatched data after the migration due to failed imports/exports"
+            solution: "Discussion of a better way with the final client app team. Provide data to correct."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Inter to Learn"
+        time: "12.2022 - 01.2023, 12.2023"
+        industry: "Work marketplace"
+        technologies: "Ruby on Rails, React, Postgres, Tailwind CSS"
+        role: "Tech Lead"
+        responsibilities: "Create MVP to attract investors. Implement communication between interns and companies which look for interns. It looks like upwork for interns."
+        link: "https://intern-to-learn.kdemo.dev"
+        tagline: "The work marketplace to help interns find jobs and companies find interns."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: "Plei App"
+        time: "02.2023 - 07.2023"
+        industry: "Sport"
+        technologies: "Ruby on Rails, React, Postgres, Firebase"
+        role: "Senior Developer"
+        responsibilities: "Expert of DB level logic optimization"
+        link: "https://pleiapp.com"
+        tagline: "The #1 Pick Up Soccer App in the Country | Play Soccer in your neighborhood, on demand 💪"
+        cases:
+          - problem: "Performance issue through big tables with unused data."
+            solution: "Archive unused data for main tables. Extracted gem https://github.com/krononsoft/archive_hook what is based on the previous experience."
+          - problem: "No live reports with external tools"
+            solution: "API for internal reports with filters and sorting"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "ListingDoor"
+        time: "04.2023"
+        industry: "Real Estates"
+        role: "Tech Lead"
+        responsibilities: "Small issues after recent upgrade, support"
+        technologies: "Ruby on Rails, Postgres"
+        link: "https://listingdoor.com"
+        tagline: "ListingDoor is more than just an FSBO company. It’s a complete home selling solution that puts you, the seller, in control of the transaction. Everything we do is from a buyer’s eye so your house will stand out from the pack! Learn from experienced, BILLION-dollar real estate agents how to successfully sell your home without a firm’s hand in your pocket. Get the tools and knowledge to WOW your potential buyers."
+        cases:
+          - problem: "3d party service data doesn't process right way"
+            solution: "Investigation and repairment of JSON processing"
 
+      - title: "BahamaGo"
+        time: "08.2022 - 02.2023"
+        industry: "Airlines and Hotels"
+        role: "Tech Lead"
+        technologies: "Ruby on Rails"
+        link: "https://bahamago.com"
+        tagline: "The web application what helps to have Bahamas airline companies and hotels in a single place"
+
+      - title: "StreetEasy"
+        time: "09.2016 - 03.2022"
+        industry: "Real Estates"
+        technologies: "Ruby on Rails, Sinatra, MySql, React, Bootstrap, Postgres, Redis, Docker, Kotlin, ElasticSearch, Flipper, DataDog, Rollbar, SendWithUs, Iterable, GraphQL"
+        role: "Senior Fullstack Developer / Tech Lead / Team Lead"
+        responsibilities: "Mentor and guru for BY team of juniors/middles. Later a tech lead of one of pods in this big project."
+        link: "https://streeteasy.com"
+        tagline: "StreetEasy provides access to real estate listing information and data via their website and mobile application. Real estate listings are often accompanied by building information including number of total units, current and past units for sale and for rent, building amenities and public permit information. Additionally, information on nearby public transportation and schools is provided alongside listing information about the property."
+        cases:
+          - problem: "Slow performance and outdated library to update to a new framework version. We had several requests to our application sequentially per one user request. It took excess communication time."
+            solution: "Global cleanup of outdated library usage with complete test coverage of changing places"
+          - problem: "Unstable work of 3d party service of sold/closed unit data. We could lose data or could not figure out that something goes wrong."
+            solution: "Redesign of existing architecture using async ways with background jobs. Added reports and control for all stages. We stopped losing data and received more accurate data about previous sales."
+          - problem: "Mismatch between manual license data and 3d party data"
+            solution: "Improve matching functionality, implemented suggestions for manual matching, group matching"
+          - problem: "Inaccurate data on buildings and, accordingly, units. Conflicts between manual changes and automatic changes, the editing war. The building units had different information about building features, incorrect address aliases or lack of them what breaks search. Some neighboring units had different coordinates."
+            solution: "Extracted an app to download, process, and control data from several global sources. It helped to provide better and richer opportunities to clarify data without changes in the main application"
+          - problem: "Internal premium positions for an additional fee using Google functionality. Limited capabilities, lack of plans depending on impressions per month, unnecessary service for internal monetization."
+            solution: "Creation of a separate module for monitoring impressions and balance by hour, random display of positions for paying companies, improvement and optimization of an additional application for tracking impressions. Design of plans and subscriptions. We got attractive and agile premium subscriptions for companies with different counts of listings. The impressions became evenly distributed throughout the month."
+          - problem: "Incorrect matching of scrapped data from feeds with listings."
+            solution: "Complete cleanup this part of functionality with enhancement of scrapping and matching data"
+
+      - title: "Tracker"
+        time: "04.2015 - 06.2017"
+        industry: "Time & Project Tracker / Finance"
+        technologies: "Ruby on Rails, Postgres, MySql, KnockOut"
+        role: "Senior Fullstack Developer / Tech Lead"
+        link: "https://tracker.krononsoft.com"
+        tagline: "The web app what helps to track time, manage projects, generate and send invoices, manage a finance side of projects."
+        responsibilities: "Complete and implement required features from employees, customers and other application users. Optimization and refactoring."
+        cases:
+          - problem: "Slow performance of growing DB"
+            solution: "Migration from MySql to Postgres"
+          - problem: "The billing is used in several company applications"
+            solution: "Extract a microservice what could become a service"
+          - problem: "The card or wiki structure could be useful for other possible projects"
+            solution: "Extract a gem(library) what covers cards, tags, versions, hierarchy"
+
+      - title: "Tripaneer(eBookingServices)"
+        time: "03.2014 - 03.2015"
+        industry: "Travel"
+        technologies: "Ruby on Rails, MongoDB, Postgres, jQuery"
+        responsibilities: "Implement new features, optimize growing application."
+        role: "Senior Fullstack Developer / Tech Lead"
+        link: "https://www.tripaneer.com"
+        tagline: "Specific vacations tours by several categories like yoga, martial arts, culinary. It helps clients find something specific and organizers promote and find clients"
+        cases:
+          - problem: "Performance of inquiry sending and limit of notifications"
+            solution: "Use async sending emails and several gmails to avoid limit. We stopped losing inquiries through it."
+          - problem: "Impossibility or too complicated way of generating reports for organizers"
+            solution: "Migrate from MongoDB to Postgres. The Document oriented DB was not suitable for our goals with many relations. This helped provide the reports we needed and tremendously improved performance from over 4 seconds to two hundred milliseconds."
+          - problem: "Slow performance of the home page categories"
+            solution: "Use specific DB features to pre-fetch these categories by listings."
+
+      - title: "AgentFolio(BuyFolio) - Archived"
+        time: "06.2011 - 02.2014"
+        industry: "Real Estates"
+        technologies: "Ruby on Rails, MySql, Postgres, jQuery"
+        role: "Middle/Senior Fullstack developer"
+        link: "https://web.archive.org/web/20140122192502/http://agentfolio.com/"
+        tagline: "The home search is too complicated for the inbox. Agentfolio is real estate’s only communication platform for buy-side agents and their homebuyers."
+
+#certifications:
+#  title: Certifications
+#  list:
+#    - name: CV Builder
+#      start: 2020
+#      end: 2021
+#      organization: Microsoft
+#      credentialid: 111-222
+#      credentialurl: www.google.com
+#      credentialname: Google
+#      details: |
+#        Details about cert. Lorem ipsum dolor sit amet, consectetur
+#        adipiscing elit.
+#        Nullam eget orci purus. Nullam ultrices neque nibh.
+#        Aenean fermentum, felis vulputate suscipit accumsan,
+#        sem enim bibendum augue, sed convallis arcu lacus at dui.
+#        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#        Praesent venenatis erat non augue suscipit consectetur.
+#
+#        Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#        fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#        justo diam viverra velit, sed rhoncus leo leo eu justo.
+#        Suspendisse placerat risus ante, sed porta nisi blandit at.
+#    - name: Git learning
+#      start: 2019
+#      end:
+#      organization: Microsoft
+#      credentialid: 111-222
+#      credentialurl: www.github.com
+#      credentialname: Github
+#      details: |
+#        Older certification. Lorem ipsum dolor sit amet, consectetur
+#        adipiscing elit.
+#        Nullam eget orci purus. Nullam ultrices neque nibh.
+#        Aenean fermentum, felis vulputate suscipit accumsan,
+#        sem enim bibendum augue, sed convallis arcu lacus at dui.
+#        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#        Praesent venenatis erat non augue suscipit consectetur.
+#
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I strive to produce ready-made, tested solutions for reuse and improvement with the help of the collective wisdom 
+      of colleagues and others interested. I try to correct errors in existing libraries and frameworks and make 
+      improvements to these tools themselves. Often even a corrected description can trigger a wave of corrections in 
+      the code itself.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Dump Hook
+        link: "https://github.com/alvir/dump_hook"
+        tagline: "A library that helps cache your data received from performing user actions in tests. We use it in our acceptance tests to enhance performance of preparing data for the tests. It contains ways to cache Postgres and MySql DBs and you need to take care about other sources your own."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Archive Hook
+        link: "https://github.com/krononsoft/archive_hook"
+        tagline: "Helps to archive data from some root scope with its deeper relations"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Ruby on Rails
+        link: "https://github.com/rails/rails"
+        tagline: "At the suggestion of my teammate, I added a correction for time conversion taking into account the time zone"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+#skills:
+#    title: Skills &amp; Proficiency
+#
+#    toolset:
+#      - name: Python & Django
+#        level: 98%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: Angular
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    

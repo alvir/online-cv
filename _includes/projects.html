@@ -18,17 +18,35 @@
 
   {% for project in projects.assignments %}
     <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="project-title">
+            {% if project.link %}
+            <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            {% else %}
+            {{ project.title }}
+            {% endif %}
+          </h3>
+        </div><!--//upper-row-->
+      </div>
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <div>Description: {{ project.tagline }}</div>
+      {% endif %}
+      <div>Period: {{ project.time }}</div>
+      <div>Industry: {{ project.industry }}</div>
+      <div>Technologies: {{ project.technologies }}</div>
+      <div>Role: {{ project.role }}</div>
+      {% if project.responsibilities %}
+        <div>Responsibilities: {{ project.responsibilities }}</div>
+      {% endif %}
+      {% if project.cases %}
+        <h4>Key points: </h4>
+        {% for case in project.cases %}
+        <div class="case">
+          <div>{{forloop.index}}) Problem: {{case.problem}}</div>
+          <div>Solution: {{case.solution }}</div>
+        </div>
+        {% endfor %}
       {% endif %}
 
     </div><!--//item-->

@@ -185,10 +185,10 @@ p {
   }
   .upper-row,
   .second-upper-row {
-    position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    flex-direction: row;
   }
   .job-title,
   .degree,
@@ -202,10 +202,8 @@ p {
   }
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
     color: $text-grey;
+    text-align: right;
     flex: 25%;
   }
   .company,
@@ -228,6 +226,13 @@ p {
     }
     .item {
       margin-bottom: 15px;
+    }
+    h4 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 3px;
+      margin-bottom: 5px;
+      color: darken($theme-color, 15%);
     }
   }
 
