@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: shurik.v.r@gmail.com
     phone: "+375257659141"
-    timezone: Minsk
+    timezone:
     citizenship:
     linkedin: alexander-ryazantsev-b256a234
     github: alvir
@@ -52,8 +52,9 @@ career-profile:
     summary: |
       Working as a Full Stack Developer and Tech Lead I participated in 
       more than 20 large projects and successful startups in Real Estate, 
-      E-commerce, Travel and Sport apps and social networks. I started as 
-      a Java and SQL programmer and worked for almost 8 years while gaining 
+      E-commerce, Travel and Sport apps and social networks. 
+      
+      I started as a Java and SQL programmer and worked for almost 8 years while gaining 
       experience in front-end technologies JavaScript and CSS. Then I switched 
       to the rapidly developing and in demand Ruby on Rails framework.
 education:
@@ -158,6 +159,7 @@ projects:
         time: "08.2022 - 02.2023"
         industry: "Airlines and Hotels"
         role: "Tech Lead"
+        responsibilities: "Small issues as a fullstack developer, support."
         technologies: "Ruby on Rails"
         link: "https://bahamago.com"
         tagline: "The web application what helps to have Bahamas airline companies and hotels in a single place"
@@ -219,71 +221,60 @@ projects:
       - title: "AgentFolio(BuyFolio) - Archived"
         time: "06.2011 - 02.2014"
         industry: "Real Estates"
+        responsibilities: "Coding, architecting, optimization."
         technologies: "Ruby on Rails, MySql, Postgres, jQuery"
         role: "Middle/Senior Fullstack developer"
         link: "https://web.archive.org/web/20140122192502/http://agentfolio.com/"
         tagline: "The home search is too complicated for the inbox. Agentfolio is real estate’s only communication platform for buy-side agents and their homebuyers."
 
-#certifications:
-#  title: Certifications
-#  list:
-#    - name: CV Builder
-#      start: 2020
-#      end: 2021
-#      organization: Microsoft
-#      credentialid: 111-222
-#      credentialurl: www.google.com
-#      credentialname: Google
-#      details: |
-#        Details about cert. Lorem ipsum dolor sit amet, consectetur
-#        adipiscing elit.
-#        Nullam eget orci purus. Nullam ultrices neque nibh.
-#        Aenean fermentum, felis vulputate suscipit accumsan,
-#        sem enim bibendum augue, sed convallis arcu lacus at dui.
-#        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#        Praesent venenatis erat non augue suscipit consectetur.
-#
-#        Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#        fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#        justo diam viverra velit, sed rhoncus leo leo eu justo.
-#        Suspendisse placerat risus ante, sed porta nisi blandit at.
-#    - name: Git learning
-#      start: 2019
-#      end:
-#      organization: Microsoft
-#      credentialid: 111-222
-#      credentialurl: www.github.com
-#      credentialname: Github
-#      details: |
-#        Older certification. Lorem ipsum dolor sit amet, consectetur
-#        adipiscing elit.
-#        Nullam eget orci purus. Nullam ultrices neque nibh.
-#        Aenean fermentum, felis vulputate suscipit accumsan,
-#        sem enim bibendum augue, sed convallis arcu lacus at dui.
-#        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#        Praesent venenatis erat non augue suscipit consectetur.
-#
+certifications:
+  title: Certifications
+  list:
+    - name: Functional Programming Principles in Scala
+      start: May 2013
+      end: Jun 2013
+      organization: Coursera
+      #      credentialid: 111-222
+      credentialurl: "#"
+      credentialname: "Grade Achieved: 100% with Distinction"
+      details: |
+        This advanced undergraduate programming course covers the
+        principles of functional programming using Scala, including the
+        use of functions as values, recursion, immutability, pattern
+        matching, higher-order functions and collections, and lazy
+        evaluation.
+    - name: Principles of Reactive Programming
+      start: Dec 2013
+      end: Jan 2014
+      organization: Coursera
+      #      credentialid: 111-222
+      credentialurl: "#"
+      credentialname: "Grade Achieved: 100% with Distinction"
+      details: |
+        This advanced course teaches principles of reactive programming using Scala: 
+        how to write composable software that is event- driven, scalable under load, 
+        resilient and responsive in the presence of failures. Concepts covered include monads, 
+        futures, observables and actors.
+
 oss:
-    title: OSS Contributions
-    intro: >
-      I strive to produce ready-made, tested solutions for reuse and improvement with the help of the collective wisdom 
-      of colleagues and others interested. I try to correct errors in existing libraries and frameworks and make 
-      improvements to these tools themselves. Often even a corrected description can trigger a wave of corrections in 
-      the code itself.
-    contributions:
-      - title: Dump Hook
-        link: "https://github.com/alvir/dump_hook"
-        tagline: "A library that helps cache your data received from performing user actions in tests. We use it in our acceptance tests to enhance performance of preparing data for the tests. It contains ways to cache Postgres and MySql DBs and you need to take care about other sources your own."
+  title: OSS Contributions
+  intro: >
+    I strive to produce ready-made, tested solutions for reuse and improvement with the help of the collective wisdom 
+    of colleagues and others interested. I try to correct errors in existing libraries and frameworks and make 
+    improvements to these tools themselves. Often even a corrected description can trigger a wave of corrections in 
+    the code itself.
+  contributions:
+    - title: Dump Hook
+      link: "https://github.com/alvir/dump_hook"
+      tagline: "A library that helps cache your data received from performing user actions in tests. We use it in our acceptance tests to enhance performance of preparing data for the tests. It contains ways to cache Postgres and MySql DBs and you need to take care about other sources your own."
 
-      - title: Archive Hook
-        link: "https://github.com/krononsoft/archive_hook"
-        tagline: "Helps to archive data from some root scope with its deeper relations"
+    - title: Archive Hook
+      link: "https://github.com/krononsoft/archive_hook"
+      tagline: "Helps to archive data from some root scope with its deeper relations"
 
-      - title: Ruby on Rails
-        link: "https://github.com/rails/rails"
-        tagline: "At the suggestion of my teammate, I added a correction for time conversion taking into account the time zone"
+    - title: Ruby on Rails
+      link: "https://github.com/rails/rails"
+      tagline: "At the suggestion of my teammate, I added a correction for time conversion taking into account the time zone"
 
 #publications:
 #    title: Publications

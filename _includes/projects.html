@@ -29,15 +29,15 @@
           </h3>
         </div><!--//upper-row-->
       </div>
-      {% if project.tagline %}
-      <div>Description: {{ project.tagline }}</div>
-      {% endif %}
-      <div>Period: {{ project.time }}</div>
-      <div>Industry: {{ project.industry }}</div>
-      <div>Technologies: {{ project.technologies }}</div>
-      <div>Role: {{ project.role }}</div>
+      <div><b>Role:</b> {{ project.role }}</div>
+      <div><b>Period:</b> {{ project.time }}</div>
       {% if project.responsibilities %}
-        <div>Responsibilities: {{ project.responsibilities }}</div>
+      <div><b>Responsibilities:</b> {{ project.responsibilities }}</div>
+      {% endif %}
+      <div><b>Technologies:</b> {{ project.technologies }}</div>
+      <div><b>Industry:</b> {{ project.industry }}</div>
+      {% if project.tagline %}
+      <div><b>Description:</b> {{ project.tagline }}</div>
       {% endif %}
 <!--      {% if project.cases %}-->
 <!--        <h4>Key points: </h4>-->
