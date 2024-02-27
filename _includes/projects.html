@@ -39,15 +39,15 @@
       {% if project.responsibilities %}
         <div>Responsibilities: {{ project.responsibilities }}</div>
       {% endif %}
-      {% if project.cases %}
-        <h4>Key points: </h4>
-        {% for case in project.cases %}
-        <div class="case">
-          <div>{{forloop.index}}) Problem: {{case.problem}}</div>
-          <div>Solution: {{case.solution }}</div>
-        </div>
-        {% endfor %}
-      {% endif %}
+<!--      {% if project.cases %}-->
+<!--        <h4>Key points: </h4>-->
+<!--        {% for case in project.cases %}-->
+<!--        <div class="case">-->
+<!--          <div>{{forloop.index}}) Issue: {{case.problem}}</div>-->
+<!--          <div>Solution: {{case.solution }}</div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--      {% endif %}-->
 
     </div><!--//item-->
   {% endfor %}
