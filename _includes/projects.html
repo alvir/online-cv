@@ -39,6 +39,11 @@
       {% if project.tagline %}
       <div><b>Description:</b> {{ project.tagline }}</div>
       {% endif %}
+      {% if project.other_links %}
+        <div><b>Other links:</b>
+          {{ project.other_links | map: "item" | join: ", " }}
+        </div>
+      {% endif %}
 <!--      {% if project.cases %}-->
 <!--        <h4>Key points: </h4>-->
 <!--        {% for case in project.cases %}-->

@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -56,7 +56,11 @@ career-profile:
       
       I started as a Java and SQL programmer and worked for almost 8 years while gaining 
       experience in front-end technologies JavaScript and CSS. Then I switched 
-      to the rapidly developing and in demand Ruby on Rails framework.
+      to the rapidly developing and in demand Ruby on Rails framework. 
+      
+      Lately I have been developing applications as a TypeScript full stack developer
+      covering the responsibilities of a technical leader as well.
+
 education:
     title: Education
     info:
@@ -87,22 +91,44 @@ experiences:
         company: Yuz-Audit
         details: |
 
-
 projects:
     title: Projects
     intro:
     assignments:
-      - title: "Montiplanet"
-        time: "01.2024 - 05.2024"
+      - title: "Montiplanet / Eduye"
+        time: "01.2024 - 02.2025"
         industry: "eCommerce"
-        technologies: "Next.js, React.js, Typescript, Tailwind CSS, Postgres, WooCommerce API, Railway.com"
+        technologies: "Next.js, React.js, Typescript, Tailwind CSS, Postgres, Playwright, Prisma, WooCommerce API, Railway, Bull MQ, DeepL, MailChimp, Cloudflare"
         role: "Tech Lead / Senior Fullstack Developer"
-        responsibilities: "Stage 2. Multicountry, multidomain, multicurrency features. Hone MVP."
+        responsibilities: "Create a full-fledged platform based on the created MVP. Make it multidomain, multilangual, multiplatform."
         link: "https://montiplanet.com"
-        tagline: "The goal of early childhood education should be to activate the child’s own natural desire to learn. Montessori toys are ideally made of natural materials and are useful to promote learning and independence. They are battery-free toys reflecting real life and focusing on one skill at a time."
+        tagline: "The goal of early childhood education should be to activate the child’s own natural desire to learn. Montessori toys are ideally made of natural materials and are useful to promote learning and independence. They are battery-free toys reflecting real life and focusing on one skill at a time. \
+          <br/>Eduye.com is a new platform is set to launch in early 2025 to provide online courses and help teachers of such courses develop their ideas."
+        other_links:
+          - item: "https://montiplanet.ca"
+          - item: "https://montiplanet.co.uk"
+          - item: "https://montiplanet.com.au"
+          - item: "https://montiplanet.nl"
+          - item: "https://montiplanet.be"
+          - item: "https://eduye.com"
+          - item: "https://eduye.nl"
         cases:
           - problem: "Slow performance of fetching and generating data from WooCommerce"
             solution: "Profiling and enhancement algorithm with better DB data preparation"
+          - problem: "Support of many WooCommerces for 6 domains with the same code"
+            solution: "Safe synchronization between the external WooCommerces and our websites using jobs. Extraction of the admin website to control the external data updates and the final websites."
+          - problem: "Launch yet 3 english websites for other countries"
+            solution: "Adapt code and implement ways to specify own data for different domains"
+          - problem: "Synchronization between several WooCommerces for the same entities but with different availability per domains"
+            solution: "Migrate from the several WooCommerces to the own admin area for all websites."
+          - problem: "Multilangual support from WooCommerce side doesn't work with many WooCommerces"
+            solution: "Use DeepL in our new admin area with cross domain management"
+          - problem: "Store images for different websites somewhere instead of WooCommerce"
+            solution: "Use Cloudlare Image storage and replace all existing images to it"
+          - problem: "Translate static content or specify domain related content"
+            solution: "Extract all content from the child websites to the admin website to simplify management and make it dynamically"
+          - problem: "Use the code of the child website and launch yet one platform Eduye"
+            solution: "Extract static images, color theme and remaining content items"
 
       - title: "WhiskeyKissBoutique"
         time: "04.2023 - 05.2023, 11.2023"
@@ -264,12 +290,16 @@ oss:
     improvements to these tools themselves. Often even a corrected description can trigger a wave of corrections in 
     the code itself.
   contributions:
+    - title: Dump Hook TS
+      link: "https://www.npmjs.com/package/dump_hook.ts"
+      tagline: "Port of Ruby DumpHook. Beta at this moment."
+
     - title: Dump Hook
       link: "https://github.com/alvir/dump_hook"
       tagline: "A library that helps cache your data received from performing user actions in tests. We use it in our acceptance tests to enhance performance of preparing data for the tests. It contains ways to cache Postgres and MySql DBs and you need to take care about other sources your own."
 
     - title: Archive Hook
-      link: "https://github.com/krononsoft/archive_hook"
+      link: "https://github.com/alvir/archive_hook"
       tagline: "Helps to archive data from some root scope with its deeper relations"
 
     - title: Ruby on Rails
