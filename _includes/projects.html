@@ -62,6 +62,7 @@
 <script>
   const url = new URL(window.location);
   const showCases = url.searchParams.get("cases");
+  document.getElementById("hideCases").setAttribute("href", url.pathname);
   if (showCases === "true") {
     document.getElementById("cases").setAttribute("style", "");
     document.getElementById("showCases").setAttribute("style", "display: none");
