@@ -1,7 +1,6 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -44,18 +43,33 @@
           {{ project.other_links | map: "item" | join: ", " }}
         </div>
       {% endif %}
-<!--      {% if project.cases %}-->
-<!--        <h4>Key points: </h4>-->
-<!--        {% for case in project.cases %}-->
-<!--        <div class="case">-->
-<!--          <div>{{forloop.index}}) Issue: {{case.problem}}</div>-->
-<!--          <div>Solution: {{case.solution }}</div>-->
-<!--        </div>-->
-<!--        {% endfor %}-->
-<!--      {% endif %}-->
+      {% if project.cases %}
+      <div id="cases" style="display: none;">
+      <div><b>Key points: </b></div>
+        {% for case in project.cases %}
+        <div class="case">
+          <div>{{forloop.index}}) Issue: {{case.problem}}</div>
+          <div>Solution: {{case.solution }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
 
     </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
+<script>
+  const url = new URL(window.location);
+  const showCases = url.searchParams.get("cases");
+  if (showCases === "true") {
+    document.getElementById("cases").setAttribute("style", "");
+    document.getElementById("showCases").setAttribute("style", "display: none");
+    document.getElementById("hideCases").setAttribute("style", "");
+  } else {
+    document.getElementById("cases").setAttribute("style", "display: none");
+    document.getElementById("showCases").setAttribute("style", "");
+    document.getElementById("hideCases").setAttribute("style", "display: none");
+  }
+</script>
 {% endif %}

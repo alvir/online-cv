@@ -12,6 +12,10 @@
     {% include sidebar.html %}
 
     <div class="main-wrapper">
+        <div style="flex: 25%; text-align: right; margin: -30px -20px 30px 0">
+          <a id="showCases" href="?cases=true">Show cases</a>
+          <a id="hideCases" style="display: none" href="/">Hide cases</a>
+        </div>
         {{ content }}
     </div>
   </div>
