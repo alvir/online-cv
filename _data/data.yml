@@ -13,7 +13,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: shurik.v.r@gmail.com
+    email: aryazantsev9@gmail.com
     phone: "+375257659141"
     timezone:
     citizenship:
@@ -50,16 +50,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Working as a Full Stack Developer and Tech Lead I participated in 
-      more than 20 large projects and successful startups in Real Estate, 
-      E-commerce, Travel and Sport apps and social networks. 
-      
-      I started as a Java and SQL programmer and worked for almost 8 years while gaining 
-      experience in front-end technologies JavaScript and CSS. Then I switched 
-      to the rapidly developing and in demand Ruby on Rails framework. 
-      
-      Lately I have been developing applications as a TypeScript full stack developer
-      covering the responsibilities of a technical leader as well.
+      Full Stack Developer and Tech/Team Lead with 20+ years of experience delivering products
+      from idea to scale. I help teams turn complex technical challenges into clear business
+      outcomes: faster delivery, better product quality, improved performance, and lower costs.
+
+      I have worked with startups and established products, navigated large legacy codebases,
+      contributed to reusable frameworks and libraries, and led both focused teams and
+      cross-functional collaboration.
+
+      Alongside hands-on engineering and architecture, I mentor developers, improve processes,
+      and actively drive product direction as a Product Owner.
 
 education:
     title: Education
@@ -72,7 +72,12 @@ experiences:
     title: Experiences
     info:
       - role: Senior Developer & Tech / Team Lead
-        time: Oct 2014 - Present
+        time: Mar 2025 - Present
+        company: Freelance / Self-employed
+        details: |
+
+      - role: Senior Developer & Tech / Team Lead
+        time: Oct 2014 - Apr 2025
         company: Krononsoft
         details: |
 
@@ -95,6 +100,11 @@ projects:
     title: Projects
     intro:
     assignments:
+      - title: "Freelance projects"
+        time: "04.2025 - Present"
+        industry: "eCommerce"
+        technologies: "Next.js, React, Typescript, Tailwind CSS, Postgres, Playwright, Prisma, Railway, Bull MQ, MailChimp, Cloudflare, Stripe, Google Merchant API, Microservices, Open AI API. "
+        role: "Tech Lead / Senior Fullstack Developer"
       - title: "Montiplanet / Eduye"
         time: "01.2024 - 02.2025"
         industry: "eCommerce"
