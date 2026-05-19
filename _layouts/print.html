@@ -16,13 +16,86 @@
     .wrapper {
       max-width: unset !important;
     }
+    .print-actions {
+      text-align: center;
+      padding: 12px 20px;
+      background: #f0f4f6;
+      border-bottom: 1px solid #d0dce3;
+      font-family: "Roboto", sans-serif;
+    }
+    .print-actions p {
+      margin: 0 0 8px;
+      font-size: 13px;
+      color: #666;
+    }
+    .btn-print {
+      background: #4B6A78;
+      color: #fff;
+      border: none;
+      padding: 9px 28px;
+      font-size: 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .btn-print:hover {
+      background: #3a5260;
+    }
+    @media print {
+      .print-actions {
+        display: none;
+      }
+    }
   </style>
   <body>
+    <div class="print-actions no-print">
+      <p>In the print dialog: choose <strong>Save as PDF</strong> as destination &amp; uncheck <strong>Headers and footers</strong> to remove the URL/title bar.</p>
+      <button class="btn-print" onclick="window.print()">Print / Save as PDF</button>
+    </div>
     <div class="wrapper">
       {% include sidebar.html %}
 
       <div class="main-wrapper">{{ content }}</div>
     </div>
     {% include scripts.html %}
+    <script>
+      (function () {
+        var groups = [];
+
+        function beforePrint() {
+          // Fix skill bar widths (they start at 0 due to JS animation)
+          document.querySelectorAll('.level-bar-inner').forEach(function (el) {
+            el.style.width = el.dataset.level;
+          });
+
+          // Wrap each section title + its first sibling in a no-break container.
+          // This is more reliable than CSS break-after/break-before in Chrome.
+          document.querySelectorAll('.section-title').forEach(function (title) {
+            var sibling = title.nextElementSibling;
+            if (!sibling) return;
+            var parent = title.parentNode;
+            var wrap = document.createElement('div');
+            wrap.style.cssText = 'break-inside: avoid; page-break-inside: avoid;';
+            parent.insertBefore(wrap, title);
+            wrap.appendChild(title);
+            wrap.appendChild(sibling);
+            groups.push({ wrap: wrap, title: title, sibling: sibling, parent: parent });
+          });
+        }
+
+        function afterPrint() {
+          // Restore DOM to original state
+          groups.forEach(function (g) {
+            g.parent.insertBefore(g.title, g.wrap);
+            g.parent.insertBefore(g.sibling, g.wrap);
+            g.parent.removeChild(g.wrap);
+          });
+          groups = [];
+        }
+
+        window.addEventListener('beforeprint', beforePrint);
+        window.addEventListener('afterprint', afterPrint);
+      })();
+    </script>
   </body>
 </html>

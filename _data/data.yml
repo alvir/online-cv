@@ -314,7 +314,7 @@ oss:
 
     - title: Ruby on Rails
       link: "https://github.com/rails/rails"
-      tagline: "At the suggestion of my teammate, I added a correction for time conversion taking into account the time zone"
+      tagline: "I added a correction for time conversion taking into account the time zone"
 
 #publications:
 #    title: Publications
