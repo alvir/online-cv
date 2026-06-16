@@ -74,27 +74,48 @@ experiences:
       - role: Senior Developer & Tech / Team Lead
         time: Mar 2025 - Present
         company: Freelance / Self-employed
-        details: |
-
+        details: 
+          - Lead end-to-end delivery of web products, from discovery and planning to production rollout.
+          - Design full-stack architecture and make key technical decisions for scalability and maintainability.
+          - Implement core product features and oversee code quality across the codebase.
+          - Set up and manage domains, integrations, and supporting production services.
+          - Collaborate directly with product stakeholders on feature ideation, prioritization, and UX improvements.
+          - Mentor developers and perform code reviews to maintain engineering standards.
       - role: Senior Developer & Tech / Team Lead
         time: Oct 2014 - Apr 2025
         company: Krononsoft
-        details: |
-
+        details: 
+          - Led development teams and coordinated technical execution across multiple products.
+          - Owned technical planning for new features, including scope analysis, architecture, and delivery plans.
+          - Participated in client acquisition activities from a technical and pre-sales perspective.
+          - Interviewed and evaluated candidates as a Tech and Team Lead.
+          - Conducted specialist assessments, supported employee growth planning, and provided mentoring.
+          - Designed and developed internal support tools to improve delivery and team efficiency.
+          - Collaborated with cross-functional teams and shared practices in internal knowledge-sharing sessions.
       - role: Senior Software Developer
         time: Sep 2006 - Oct 2014
         company: Anadea (Anahoret)
-        details: |
-
+        details:
+          - Developed and maintained full-stack web applications for client and internal needs.
+          - Participated in technical design, feature implementation, and ongoing platform support.
+          - Conducted specialist assessments and supported employee professional growth.
+          - Built internal helper projects and tooling to streamline development and operations.
+          - Collaborated with teams to improve code quality, delivery consistency, and engineering practices.
       - role: Software Engineer
         time: Apr 2003 - Sep 2006
         company: JSC Ukrtelecom
-        details: |
-
+        details: 
+          - Worked as a full-stack developer on corporate web applications.
+          - Developed new internal business features and maintained existing systems.
+          - Provided ongoing support and improvements for production applications.
+          - Mentored colleagues in the later stage of this role.
       - role: Software Engineer
         time: Jul 2002 - Mar 2003
         company: Yuz-Audit
-        details: |
+        details:
+          - Supported the director in preparing reporting forms and operational documentation.
+          - Developed scripts for calculation automation and data processing.
+          - Assisted with internal IT-related tasks and business process support.
 
 projects:
     title: Projects
